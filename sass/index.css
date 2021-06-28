@@ -25,6 +25,40 @@ body {
           flex-direction: column;
 }
 
+.contanier-key {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 450px;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  background-color: #182034;
+  padding: 10px 5px;
+  margin: 8px 0;
+  border-radius: 7px;
+}
+
+.contanier-key button {
+  width: 90px;
+  padding: 15px;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 0px 0px #b4a597;
+          box-shadow: 0px 3px 0px 0px #b4a597;
+  margin: 10px 10px;
+  font-size: 32px;
+}
+
+.contanier-key .contanier-key__row {
+  padding: 15px;
+  margin: 10px;
+  font-size: 32px;
+  border-radius: 5px;
+  color: #637097;
+}
+
 .toggle {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,5 +79,22 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+
+.screen {
+  width: 450px;
+}
+
+#screen {
+  width: 100%;
+  height: 100px;
+  margin: 10px 0;
+  text-align: right;
+  font-size: 32px;
+  background-color: #182034;
+  color: #FFF;
+  border: 0;
+  outline: none;
+  border-radius: 7px;
 }
 /*# sourceMappingURL=index.css.map */
