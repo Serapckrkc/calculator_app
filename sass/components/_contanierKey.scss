@@ -1,20 +1,12 @@
 .contanier-key{
     display: flex;
-<<<<<<< HEAD
 	width: 450px;
 	flex-flow: wrap;
-	background-color: hsl(223, 31%, 20%);
+	background-color: $darkblue;
 	padding: 10px 5px;
 	margin: 8px 0;
 	border-radius: 7px;
-=======
-    width: 450px;
-    flex-flow: wrap;
-    background-color: hsl(224, 36%, 15%);
-    padding: 10px 5px;
-    margin: 8px 0;
-    border-radius: 7px;
->>>>>>> da2b06fdfadc3e3e2e7af32c7da1b32da2b39c34
+
 
     button{
     width: 90px;
@@ -23,7 +15,7 @@
     cursor: pointer;
     border: 0;
     border-radius: 5px;
-    box-shadow: 0px 3px 0px 0px hsl(28, 16%, 65%);
+    box-shadow: 0px 3px 0px 0px $orange;
     margin: 10px;
     font-size: 32px;
     }
@@ -33,11 +25,11 @@
      margin: 10px ;
      font-size: 25px;
      border-radius: 5px;
-     color: hsl(222, 26%, 31%);
+     color: $verydarkblue;
      
     }
 
-<<<<<<< HEAD
+
     #del{
         font-size: 16px;
     }
@@ -49,17 +41,15 @@
     }
     
     #reset, #del{
-        background: #647299;
-        box-shadow: 0px 3px 0px 0px  #404C6F;
-        color: #fff;
+        background: $blue;
+        box-shadow: 0px 3px 0px 0px  $mediumblue;
+        color: $white;
     }
 
     #equal{
-        color: #fff;
-        background: hsl(6, 63%, 50%);
-        box-shadow: 0px 3px 0px 0px  hsl(6, 70%, 34%);
+        color: $white;
+        background: $red;
+        box-shadow: 0px 3px 0px 0px  $darkred;
     }
 }
-=======
-}
->>>>>>> da2b06fdfadc3e3e2e7af32c7da1b32da2b39c34
+
