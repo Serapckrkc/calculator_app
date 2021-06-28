@@ -4,28 +4,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="sass/index.css">
   <title>Calculator App</title>
 </head>
 <body>
     <div class="contanier">
         <header class="header">
-                <h3 class="header__title">calc</h3>
-
 
             <div class="toggle">
-                <h5 id="toggle__one">1</h5>
-                <h5 id="toggle__two">2</h5>
-                <h5 id="toggle_three">3</h5>
+                  <h5 id="toggle__one">1</h5>
+                  <h5 id="toggle__two">2</h5>
+                  <h5 id="toggle_three">3</h5>
             </div>
 
             <div class="control">
+              <h3 class="header__title">calc</h3>
                  <h6 class="control__title">THEME</h6>
                   <div class="control__box">
-                      <div id="conrol__box--circle">circle</div>
+                      <div id="conrol__box--circle"></div>
                   </div>
             </div>
-         
+            
         </header>
     
         <div class="screen">
@@ -39,7 +41,7 @@
                 <button class="contanier-key__row">7</button>
                 <button class="contanier-key__row">8</button>
                 <button class="contanier-key__row">9</button>
-                <button class="contanier-key__row">DEL</button>
+                <button class="contanier-key__row" id="del">DEL</button>
                 <button class="contanier-key__row">4</button>
                 <button class="contanier-key__row">5</button>
                 <button class="contanier-key__row">6</button>
@@ -52,8 +54,8 @@
                 <button class="contanier-key__row">0</button>
                 <button class="contanier-key__row">/</button>
                 <button class="contanier-key__row">x</button>
-                <button class="contanier-key__row">reset</button>
-                <button class="contanier-key__row">=</button>
+                <button class="contanier-key__row" id="reset">RESET</button>
+                <button class="contanier-key__row" id="equal">=</button>
               
         </div>
     </div>

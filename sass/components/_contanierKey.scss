@@ -2,7 +2,7 @@
     display: flex;
 	width: 450px;
 	flex-flow: wrap;
-	background-color: hsl(224, 36%, 15%);
+	background-color: hsl(223, 31%, 20%);
 	padding: 10px 5px;
 	margin: 8px 0;
 	border-radius: 7px;
@@ -15,17 +15,38 @@
     border: 0;
     border-radius: 5px;
     box-shadow: 0px 3px 0px 0px hsl(28, 16%, 65%);
-    margin: 10px 10px;
+    margin: 10px;
     font-size: 32px;
     }
 
     .contanier-key__row{
-     padding: 15px;  
-     margin: 10px;
-     font-size: 32px;
+     padding: 10px;  
+     margin: 10px ;
+     font-size: 25px;
      border-radius: 5px;
-     color:  hsl(225, 21%, 49%);
+     color: hsl(222, 26%, 31%);
      
     }
 
+    #del{
+        font-size: 16px;
+    }
+
+    #reset , #equal{
+        width: 200px;
+        font-size: 16px;
+        padding: 10px;
+    }
+    
+    #reset, #del{
+        background: #647299;
+        box-shadow: 0px 3px 0px 0px  #404C6F;
+        color: #fff;
+    }
+
+    #equal{
+        color: #fff;
+        background: hsl(6, 63%, 50%);
+        box-shadow: 0px 3px 0px 0px  hsl(6, 70%, 34%);
+    }
 }
