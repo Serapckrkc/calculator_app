@@ -38,24 +38,24 @@
 
         <div class="contanier-key">
               
-                <button class="contanier-key__row">7</button>
-                <button class="contanier-key__row">8</button>
-                <button class="contanier-key__row">9</button>
-                <button class="contanier-key__row" id="del">DEL</button>
-                <button class="contanier-key__row">4</button>
-                <button class="contanier-key__row">5</button>
-                <button class="contanier-key__row">6</button>
-                <button class="contanier-key__row">+</button>
-                <button class="contanier-key__row">1</button>
-                <button class="contanier-key__row">2</button>
-                <button class="contanier-key__row">3</button>
-                <button class="contanier-key__row">-</button>
-                <button class="contanier-key__row">.</button>
-                <button class="contanier-key__row">0</button>
-                <button class="contanier-key__row">/</button>
-                <button class="contanier-key__row">x</button>
-                <button class="contanier-key__row" id="reset">RESET</button>
-                <button class="contanier-key__row" id="equal">=</button>
+                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='7'">7</button>
+                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='8'">8</button>
+                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='9'">9</button>
+                <button class="contanier-key__row" id="del" onclick="del()">DEL</button>
+                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='4'">4</button>
+                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='5'">5</button>
+                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='6'">6</button>
+                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='+'">+</button>
+                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='1'">1</button>
+                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='2'">2</button>
+                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='3'">3</button>
+                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='-'">-</button>
+                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='.'">.</button>
+                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='0'">0</button>
+                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='/'">/</button>
+                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='*'">x</button>
+                <button class="contanier-key__row" id="reset" onclick="document.screen__calc.text.value=''">RESET</button>
+                <button class="contanier-key__row" id="equal" onclick="document.screen__calc.text.value=eval(screen__calc.text.value)">=</button>
               
         </div>
     </div>
