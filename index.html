@@ -31,30 +31,30 @@
         </header>
     
         <div class="screen">
-          <form name="screen__calc">
+          <form name="screen__calc" id="screen-calc">
             <input type="text" name="text" readonly id="screen">
           </form>
         </div>
 
         <div class="contanier-key">
               
-                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='7'">7</button>
-                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='8'">8</button>
-                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='9'">9</button>
-                <button class="contanier-key__row" id="del" onclick="del()">DEL</button>
-                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='4'">4</button>
-                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='5'">5</button>
-                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='6'">6</button>
-                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='+'">+</button>
-                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='1'">1</button>
-                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='2'">2</button>
-                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='3'">3</button>
-                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='-'">-</button>
-                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='.'">.</button>
-                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='0'">0</button>
-                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='/'">/</button>
-                <button class="contanier-key__row" onclick="document.screen__calc.text.value+='*'">x</button>
-                <button class="contanier-key__row" id="reset" onclick="document.screen__calc.text.value=''">RESET</button>
+                <button class="contanier-key__row" onclick="handleClick('7')">7</button>
+                <button class="contanier-key__row" onclick="handleClick('8')">8</button>
+                <button class="contanier-key__row" onclick="handleClick('9')">9</button>
+                <button class="contanier-key__row" id="del" onclick="">DEL</button>
+                <button class="contanier-key__row" onclick="handleClick('4')">4</button>
+                <button class="contanier-key__row" onclick="handleClick('5')">5</button>
+                <button class="contanier-key__row" onclick="handleClick('6')">6</button>
+                <button class="contanier-key__row" onclick="handleClick('+')">+</button>
+                <button class="contanier-key__row" onclick="handleClick('1')">1</button>
+                <button class="contanier-key__row" onclick="handleClick('2')">2</button>
+                <button class="contanier-key__row" onclick="handleClick('3')">3</button>
+                <button class="contanier-key__row" onclick="handleClick('-')">-</button>
+                <button class="contanier-key__row" onclick="handleClick('.')">.</button>
+                <button class="contanier-key__row" onclick="handleClick('0')">0</button>
+                <button class="contanier-key__row" onclick="handleClick('/')">/</button>
+                <button class="contanier-key__row" onclick="handleClick('*')">x</button>
+                <button class="contanier-key__row" id="reset" onclick="clear()">RESET</button>
                 <button class="contanier-key__row" id="equal" onclick="document.screen__calc.text.value=eval(screen__calc.text.value)">=</button>
               
         </div>
