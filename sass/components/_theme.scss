@@ -15,6 +15,12 @@ body.active1 .contanier-key{
 body.active2{
 	background-color: var(--mainbg2color);
 }
+body.active1 .header__title{
+	color: $darkgrey;
+}
+body.active2 .header__title{
+	color: $yellow;
+}
 body.active1 .toggle{
 	color: $darkgrey;
 }
@@ -56,6 +62,12 @@ body.active1 button{
 body.active2 button{
 	box-shadow: 0px 3px 0px 0px $darkviolet;
 	background-color: $darkmegenta;
+	color: $yellow;
+}
+body.active1 .contanier-key__row{
+	color: $darkgrey;
+}
+body.active2 .contanier-key__row{
 	color: $yellow;
 }
 body.active2 .contanier-key{

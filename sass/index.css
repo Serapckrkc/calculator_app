@@ -18,6 +18,14 @@ body.active2 {
   background-color: var(--mainbg2color);
 }
 
+body.active1 .header__title {
+  color: #111;
+}
+
+body.active2 .header__title {
+  color: #ffe53d;
+}
+
 body.active1 .toggle {
   color: #111;
 }
@@ -73,6 +81,14 @@ body.active2 button {
   -webkit-box-shadow: 0px 3px 0px 0px #341c4f;
           box-shadow: 0px 3px 0px 0px #341c4f;
   background-color: #871c9c;
+  color: #ffe53d;
+}
+
+body.active1 .contanier-key__row {
+  color: #111;
+}
+
+body.active2 .contanier-key__row {
   color: #ffe53d;
 }
 
