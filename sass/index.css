@@ -132,7 +132,6 @@ body.active2 #equal {
 
 body {
   width: 100%;
-  max-width: 1440px;
   background: #394765;
   height: 100vh;
   display: -webkit-box;
@@ -275,5 +274,15 @@ h3 {
   border: 0;
   outline: none;
   border-radius: 7px;
+}
+
+@media screen and (max-width: 445px) {
+  .contanier {
+    width: 100%;
+    min-width: 330px;
+  }
+  .contanier-key {
+    font-size: 35px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
