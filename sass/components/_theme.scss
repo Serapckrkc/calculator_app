@@ -1,0 +1,81 @@
+:root{
+	--mainbgcolor: hsl(222, 26%, 31%);
+	--mainbg1color: hsl(0, 0%, 90%);
+	--mainbg2color: hsl(268, 75%, 9%);
+	--twotkbg: hsl(0, 5%, 81%);
+	--tbgkbgsbg: hsl(268, 71%, 12%);
+}
+
+body.active1{
+	background-color: var(--mainbg1color);
+}
+body.active1 .contanier-key{
+	background-color: var(--twotkbg);
+}
+body.active2{
+	background-color: var(--mainbg2color);
+}
+body.active1 .toggle{
+	color: $darkgrey;
+}
+body.active2 .toggle {
+	color: $yellow;
+}
+body.active1 .control .control__box{
+	background-color: var(--twotkbg);
+}
+body.active2 .control #conrol__box--circle{
+	background-color: $purecyan;
+}
+body.active1 .control #conrol__box--circle{
+	background-color: $orangetwo;
+}
+body.active1 .control__title{
+	color: $darkgrey;
+}
+body.active1 h5{
+	color: $darkgrey;
+}
+body.active2 .control__title{
+	color: $yellow;
+}
+body.active2 h5{
+	color: $yellow;
+}
+body.active1 #screen{
+	background-color: $lightwhite;
+	color: $darkgrey;
+}
+body.active2 #screen{
+	background-color: var(--tbgkbgsbg);
+	color: $yellow;
+}
+body.active1 button{
+	box-shadow: 0px 3px 0px 0px $grayishorange;
+}
+body.active2 button{
+	box-shadow: 0px 3px 0px 0px $darkviolet;
+	background-color: $darkmegenta;
+	color: $yellow;
+}
+body.active2 .contanier-key{
+	background-color: var(--tbgkbgsbg);
+}
+body.active1 #reset, body.active1 #del{
+	box-shadow: 0px 3px 0px 0px $grayishorange;
+	background-color: $darkcyan;
+}
+body.active2 #reset, body.active2 #del{
+	box-shadow: 0px 3px 0px 0px $darkmegenta;
+	background-color: $darkviolet;
+	color: $white;
+}
+body.active1 #equal{
+	box-shadow: 0px 3px 0px 0px $darkorange;
+	background-color: $orangetwo;
+}
+body.active2 #equal{
+	box-shadow: 0px 3px 0px 0px $softcyan;
+	background-color: $purecyan;
+	color: $white;
+}

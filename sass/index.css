@@ -1,3 +1,111 @@
+:root {
+  --mainbgcolor: hsl(222, 26%, 31%);
+  --mainbg1color: hsl(0, 0%, 90%);
+  --mainbg2color: hsl(268, 75%, 9%);
+  --twotkbg: hsl(0, 5%, 81%);
+  --tbgkbgsbg: hsl(268, 71%, 12%);
+}
+
+body.active1 {
+  background-color: var(--mainbg1color);
+}
+
+body.active1 .contanier-key {
+  background-color: var(--twotkbg);
+}
+
+body.active2 {
+  background-color: var(--mainbg2color);
+}
+
+body.active1 .toggle {
+  color: #111;
+}
+
+body.active2 .toggle {
+  color: #ffe53d;
+}
+
+body.active1 .control .control__box {
+  background-color: var(--twotkbg);
+}
+
+body.active2 .control #conrol__box--circle {
+  background-color: #00e0d1;
+}
+
+body.active1 .control #conrol__box--circle {
+  background-color: #ca5502;
+}
+
+body.active1 .control__title {
+  color: #111;
+}
+
+body.active1 h5 {
+  color: #111;
+}
+
+body.active2 .control__title {
+  color: #ffe53d;
+}
+
+body.active2 h5 {
+  color: #ffe53d;
+}
+
+body.active1 #screen {
+  background-color: #ededed;
+  color: #111;
+}
+
+body.active2 #screen {
+  background-color: var(--tbgkbgsbg);
+  color: #ffe53d;
+}
+
+body.active1 button {
+  -webkit-box-shadow: 0px 3px 0px 0px #a69d91;
+          box-shadow: 0px 3px 0px 0px #a69d91;
+}
+
+body.active2 button {
+  -webkit-box-shadow: 0px 3px 0px 0px #341c4f;
+          box-shadow: 0px 3px 0px 0px #341c4f;
+  background-color: #871c9c;
+  color: #ffe53d;
+}
+
+body.active2 .contanier-key {
+  background-color: var(--tbgkbgsbg);
+}
+
+body.active1 #reset, body.active1 #del {
+  -webkit-box-shadow: 0px 3px 0px 0px #a69d91;
+          box-shadow: 0px 3px 0px 0px #a69d91;
+  background-color: #377f86;
+}
+
+body.active2 #reset, body.active2 #del {
+  -webkit-box-shadow: 0px 3px 0px 0px #871c9c;
+          box-shadow: 0px 3px 0px 0px #871c9c;
+  background-color: #341c4f;
+  color: #fff;
+}
+
+body.active1 #equal {
+  -webkit-box-shadow: 0px 3px 0px 0px #893901;
+          box-shadow: 0px 3px 0px 0px #893901;
+  background-color: #ca5502;
+}
+
+body.active2 #equal {
+  -webkit-box-shadow: 0px 3px 0px 0px #6cf9f2;
+          box-shadow: 0px 3px 0px 0px #6cf9f2;
+  background-color: #00e0d1;
+  color: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
